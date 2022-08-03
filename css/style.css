@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.momentum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #FC0A7E, #CF0063, #450E4B);
+}
+.momentum-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    justify-content: space-around
+}
+
+.momentum-section p {
+    font-size: 30px;
+    color: whitesmoke;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1152px;
+}
+.container{
+    max-width: 1152px;
+}
+.menu__item{
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.momentum-section h1 {
+    font-size: 80px;
+    color: white;
+}
+.momentum-section button {
+    background: #fc0a7e;
+    border-radius: 3px;
+    width: 170px;
+    height: 66px;
+    color:white;
+    border: none;
+}
+.desktop-app-info {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+}
+.desktop-app-info__item_sixe-s {
+    color: #a8a8a8;
+    font-size: 13px;
+}
+.desktop-app-info__item_sixe-m {
+    color: #ffffff ;
+    font-size: 38px;
+    margin-top: 25px    ;
+}
+.mobile-app-info-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-app-info-1__text {
+    max-width: 450px;
+    padding-right: 90;
+}
+.mobile-app-info-1__text_item_size-s {
+    color: #a8a8a8;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.mobile-app-info-1__text_item_size-m {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 30px;
+}
+.mobile-app-info-1__text_item_size-l {
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    max-width: 302px;
+}
+@media all and( max-width:700px){
+    .mobile-app-info-1{
+        flex-direction: column;
+    }
+}
+.mobile-app-info-1__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}   
+@media all and( max-width: 570px) {
+    .mobile-app-info-1{
+        flex-direction: column;
+    }
+}
+@media all and( max-width: 460px){
+    .momentum-section h1{
+        font-size: 40%;
+    }
+}
+.momentum-section button{
+    width: 125px;
+    height: 40px;
+}
+.momentum-section{
+    height: 580px;
+}
+@media all and ( max-width: 420px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
